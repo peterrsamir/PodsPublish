@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		683C00A32C847E990087E99C /* PodsPublish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683C009A2C847E990087E99C /* PodsPublish.framework */; };
-		683C00A82C847E990087E99C /* PodsPublishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683C00A72C847E990087E99C /* PodsPublishTests.swift */; };
 		683C00A92C847E990087E99C /* PodsPublish.h in Headers */ = {isa = PBXBuildFile; fileRef = 683C009D2C847E990087E99C /* PodsPublish.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		683C00B32C847EC10087E99C /* PrintString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683C00B22C847EC10087E99C /* PrintString.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		683C009A2C847E990087E99C /* PodsPublish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodsPublish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		683C009D2C847E990087E99C /* PodsPublish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsPublish.h; sourceTree = "<group>"; };
 		683C00A22C847E990087E99C /* PodsPublishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodsPublishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		683C00A72C847E990087E99C /* PodsPublishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodsPublishTests.swift; sourceTree = "<group>"; };
 		683C00B22C847EC10087E99C /* PrintString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				683C009C2C847E990087E99C /* PodsPublish */,
-				683C00A62C847E990087E99C /* PodsPublishTests */,
 				683C009B2C847E990087E99C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,14 +72,6 @@
 				683C00B22C847EC10087E99C /* PrintString.swift */,
 			);
 			path = PodsPublish;
-			sourceTree = "<group>";
-		};
-		683C00A62C847E990087E99C /* PodsPublishTests */ = {
-			isa = PBXGroup;
-			children = (
-				683C00A72C847E990087E99C /* PodsPublishTests.swift */,
-			);
-			path = PodsPublishTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +192,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				683C00A82C847E990087E99C /* PodsPublishTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
